@@ -1,0 +1,48 @@
+name: doctor_app
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.5 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  url_launcher: ^6.1.4
+  share_plus: ^4.0.10
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/images/albert.png
+    - assets/images/bg_shape.png
+    - assets/images/cherly.png
+    - assets/images/mathew.png
+
+  fonts:
+
+    - family: CustomIcons
+      fonts:
+        - asset: assets/fonts/CustomIcons.ttf
+    - family: SFProDisplay
+      fonts:
+        - asset: assets/fonts/SFProDisplay-Bold.otf
+          weight: 700
+        - asset: assets/fonts/SFProDisplay-Semibold.otf
+          weight: 600
+        - asset: assets/fonts/SFProDisplay-Regular.otf
+          weight: 400
+        - asset: assets/fonts/SFProDisplay-Light.otf
+          weight: 300
+
